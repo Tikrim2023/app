@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 # MySQL Connection
 mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",  # if no password is set for root in your MySQL setup
+    host= "localhost",
+    user="root" ,
+    password="" ,  # if no password is set for root in your MySQL setup
     database="expenses_db"
 )
 cursor = mydb.cursor()
