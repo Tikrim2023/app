@@ -10,6 +10,7 @@ mydb = mysql.connector.connect(
     user="root" ,
     password="" ,  # if no password is set for root in your MySQL setup
     database="expenses_db"
+
 )
 cursor = mydb.cursor()
 
